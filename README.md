@@ -2,7 +2,7 @@
 
 ```
 python -m venv .venv
-.venv/scripts/active
+.venv/scripts/activate
 pip install -r requirements.txt
 coverage run -m pytest
 coverage report
